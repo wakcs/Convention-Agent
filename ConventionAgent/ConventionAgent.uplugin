@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ConventionAgent",
+	"Description": "Keeps the structure of files and folders in your project in check.",
+	"Category": "Other",
+	"CreatedBy": "Geert Cocu",
+	"CreatedByURL": "geertcocu.nl",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ConventionAgent",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

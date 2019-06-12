@@ -1,0 +1,4583 @@
+{
+	"CheckOnStartup": false,
+	"AssetInfo": [
+		{
+			"Type": "CameraAnim",
+			"Subtype": "",
+			"Prefix": "CA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColor",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeCurveTable",
+			"Subtype": "",
+			"Prefix": "CT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeDataTable",
+			"Subtype": "",
+			"Prefix": "CDT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColorAtlas",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": "Atlas"
+		},
+		{
+			"Type": "DataTable",
+			"Subtype": "",
+			"Prefix": "DT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveFloat",
+			"Subtype": "",
+			"Prefix": "CF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FoliageType_InstancedStaticMesh",
+			"Subtype": "",
+			"Prefix": "FT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ForceFeedbackEffect",
+			"Subtype": "",
+			"Prefix": "FFE_",
+			"Suffix": ""
+		},
+		{
+			"Type": "HapticFeedbackEffect_Buffer",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Buffer"
+		},
+		{
+			"Type": "HapticFeedbackEffect_Curve",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Curve"
+		},
+		{
+			"Type": "HapticFeedbackEffect_SoundWave",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Soundwave"
+		},
+		{
+			"Type": "LandscapeGrassType",
+			"Subtype": "",
+			"Prefix": "LG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LightPropagationVolumeBlendable",
+			"Subtype": "",
+			"Prefix": "LPV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "InterpData",
+			"Subtype": "",
+			"Prefix": "Matinee_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ObjectLibrary",
+			"Subtype": "",
+			"Prefix": "OL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PreviewMeshCollection",
+			"Subtype": "",
+			"Prefix": "PMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateVectorArtData",
+			"Subtype": "",
+			"Prefix": "SV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StringTable",
+			"Subtype": "",
+			"Prefix": "ST_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubUVAnimation",
+			"Subtype": "",
+			"Prefix": "SUA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TouchInterface",
+			"Subtype": "",
+			"Prefix": "TI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveVector",
+			"Subtype": "",
+			"Prefix": "CV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticMesh",
+			"Subtype": "",
+			"Prefix": "SM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ParticleSystem",
+			"Subtype": "",
+			"Prefix": "PS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticVectorField",
+			"Subtype": "",
+			"Prefix": "VF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimatedVectorField",
+			"Subtype": "",
+			"Prefix": "VFA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LandscapeLayer",
+			"Subtype": "",
+			"Prefix": "LL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace1D",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimBlueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimComposite",
+			"Subtype": "",
+			"Prefix": "AC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimMontage",
+			"Subtype": "",
+			"Prefix": "AM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimSequence",
+			"Subtype": "",
+			"Prefix": "A_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlendSpace",
+			"Subtype": "",
+			"Prefix": "BS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LevelSequence",
+			"Subtype": "",
+			"Prefix": "LS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MorphTarget",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PoseAsset",
+			"Subtype": "",
+			"Prefix": "PA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Rig",
+			"Subtype": "",
+			"Prefix": "Rig_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SkeletalMesh",
+			"Subtype": "",
+			"Prefix": "SK_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Skeleton",
+			"Subtype": "",
+			"Prefix": "SKEL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_MacroLibrary",
+			"Prefix": "BPML_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_Interface",
+			"Prefix": "BPI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_FunctionLibrary",
+			"Prefix": "BPFL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Component",
+			"Prefix": "BPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Gamemode",
+			"Prefix": "GM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "PlayerController",
+			"Prefix": "PC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "AIController",
+			"Prefix": "AIC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Tutorial",
+			"Prefix": "TBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Character",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Pawn",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Actor",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Animation Blueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedEnum",
+			"Subtype": "",
+			"Prefix": "E",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedStruct",
+			"Subtype": "",
+			"Prefix": "S",
+			"Suffix": ""
+		},
+		{
+			"Type": "BehaviourTree",
+			"Subtype": "",
+			"Prefix": "BT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlackboardData",
+			"Subtype": "",
+			"Prefix": "BB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Decorator",
+			"Prefix": "BTD_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Service",
+			"Prefix": "BTS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Task",
+			"Prefix": "BTT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "EnvQuery",
+			"Subtype": "",
+			"Prefix": "EQS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "EnvQueryContext",
+			"Prefix": "EQS_",
+			"Suffix": "Context"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "",
+			"Prefix": "M_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Surface",
+			"Prefix": "M_",
+			"Suffix": "_S"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_DeferredDecal",
+			"Prefix": "M_",
+			"Suffix": "_D"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_LightFunction",
+			"Prefix": "M_",
+			"Suffix": "_LF"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Volume",
+			"Prefix": "M_",
+			"Suffix": "_V"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_PostProcess",
+			"Prefix": "M_",
+			"Suffix": "_P"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_UI",
+			"Prefix": "M_",
+			"Suffix": "_UI"
+		},
+		{
+			"Type": "MaterialFunction",
+			"Subtype": "",
+			"Prefix": "MF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialInstanceConstant",
+			"Subtype": "",
+			"Prefix": "MI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialParameterCollection",
+			"Subtype": "",
+			"Prefix": "MPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubsurfaceProfile",
+			"Subtype": "",
+			"Prefix": "SP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Texture2D",
+			"Subtype": "",
+			"Prefix": "T_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTargetCube",
+			"Subtype": "",
+			"Prefix": "RTC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CanvasRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "CRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "TRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "VolumeTexture",
+			"Subtype": "",
+			"Prefix": "VT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureLightProfile",
+			"Subtype": "",
+			"Prefix": "TLP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureCube",
+			"Subtype": "",
+			"Prefix": "TC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FileMediaSource",
+			"Subtype": "",
+			"Prefix": "FMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ImgMediaSource",
+			"Subtype": "",
+			"Prefix": "IMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlayer",
+			"Subtype": "",
+			"Prefix": "MP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlaylist",
+			"Subtype": "",
+			"Prefix": "MPL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PlatformMediaSource",
+			"Subtype": "",
+			"Prefix": "PMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StreamMediaSource",
+			"Subtype": "",
+			"Prefix": "SMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperFlipbook",
+			"Subtype": "",
+			"Prefix": "PFB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSprite",
+			"Subtype": "",
+			"Prefix": "SPR_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSpriteAtlasGroup",
+			"Subtype": "",
+			"Prefix": "SPRG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileMap",
+			"Subtype": "",
+			"Prefix": "TM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileSet",
+			"Subtype": "",
+			"Prefix": "TS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicalMaterial",
+			"Subtype": "",
+			"Prefix": "PM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicsAsset",
+			"Subtype": "",
+			"Prefix": "PHYS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DestructibleMesh",
+			"Subtype": "",
+			"Prefix": "DM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueVoice",
+			"Subtype": "",
+			"Prefix": "DV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueWave",
+			"Subtype": "",
+			"Prefix": "DW_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ReverbEffect",
+			"Subtype": "",
+			"Prefix": "Reverb_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundAttenuation",
+			"Subtype": "",
+			"Prefix": "ATT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundConcurrency",
+			"Subtype": "",
+			"Prefix": "",
+			"Suffix": "_SC"
+		},
+		{
+			"Type": "SoundCue",
+			"Subtype": "S_",
+			"Prefix": "",
+			"Suffix": "_Cue"
+		},
+		{
+			"Type": "SoundMix",
+			"Subtype": "",
+			"Prefix": "Mix_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundClass",
+			"Subtype": "",
+			"Prefix": "SC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundWave",
+			"Subtype": "",
+			"Prefix": "S_",
+			"Suffix": "_Wave"
+		},
+		{
+			"Type": "Font",
+			"Subtype": "",
+			"Prefix": "Font_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateBrushAsset",
+			"Subtype": "",
+			"Prefix": "Brush_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateWidgetStyleAsset",
+			"Subtype": "",
+			"Prefix": "Style_",
+			"Suffix": ""
+		},
+		{
+			"Type": "WidgetBlueprint",
+			"Subtype": "",
+			"Prefix": "WBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CameraAnim",
+			"Subtype": "",
+			"Prefix": "CA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColor",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeCurveTable",
+			"Subtype": "",
+			"Prefix": "CT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeDataTable",
+			"Subtype": "",
+			"Prefix": "CDT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColorAtlas",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": "Atlas"
+		},
+		{
+			"Type": "DataTable",
+			"Subtype": "",
+			"Prefix": "DT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveFloat",
+			"Subtype": "",
+			"Prefix": "CF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FoliageType_InstancedStaticMesh",
+			"Subtype": "",
+			"Prefix": "FT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ForceFeedbackEffect",
+			"Subtype": "",
+			"Prefix": "FFE_",
+			"Suffix": ""
+		},
+		{
+			"Type": "HapticFeedbackEffect_Buffer",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Buffer"
+		},
+		{
+			"Type": "HapticFeedbackEffect_Curve",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Curve"
+		},
+		{
+			"Type": "HapticFeedbackEffect_SoundWave",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Soundwave"
+		},
+		{
+			"Type": "LandscapeGrassType",
+			"Subtype": "",
+			"Prefix": "LG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LightPropagationVolumeBlendable",
+			"Subtype": "",
+			"Prefix": "LPV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "InterpData",
+			"Subtype": "",
+			"Prefix": "Matinee_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ObjectLibrary",
+			"Subtype": "",
+			"Prefix": "OL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PreviewMeshCollection",
+			"Subtype": "",
+			"Prefix": "PMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateVectorArtData",
+			"Subtype": "",
+			"Prefix": "SV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StringTable",
+			"Subtype": "",
+			"Prefix": "ST_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubUVAnimation",
+			"Subtype": "",
+			"Prefix": "SUA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TouchInterface",
+			"Subtype": "",
+			"Prefix": "TI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveVector",
+			"Subtype": "",
+			"Prefix": "CV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticMesh",
+			"Subtype": "",
+			"Prefix": "SM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ParticleSystem",
+			"Subtype": "",
+			"Prefix": "PS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticVectorField",
+			"Subtype": "",
+			"Prefix": "VF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimatedVectorField",
+			"Subtype": "",
+			"Prefix": "VFA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LandscapeLayer",
+			"Subtype": "",
+			"Prefix": "LL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace1D",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimBlueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimComposite",
+			"Subtype": "",
+			"Prefix": "AC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimMontage",
+			"Subtype": "",
+			"Prefix": "AM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimSequence",
+			"Subtype": "",
+			"Prefix": "A_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlendSpace",
+			"Subtype": "",
+			"Prefix": "BS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LevelSequence",
+			"Subtype": "",
+			"Prefix": "LS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MorphTarget",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PoseAsset",
+			"Subtype": "",
+			"Prefix": "PA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Rig",
+			"Subtype": "",
+			"Prefix": "Rig_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SkeletalMesh",
+			"Subtype": "",
+			"Prefix": "SK_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Skeleton",
+			"Subtype": "",
+			"Prefix": "SKEL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_MacroLibrary",
+			"Prefix": "BPML_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_Interface",
+			"Prefix": "BPI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_FunctionLibrary",
+			"Prefix": "BPFL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Component",
+			"Prefix": "BPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Gamemode",
+			"Prefix": "GM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "PlayerController",
+			"Prefix": "PC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "AIController",
+			"Prefix": "AIC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Tutorial",
+			"Prefix": "TBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Character",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Pawn",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Actor",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Animation Blueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedEnum",
+			"Subtype": "",
+			"Prefix": "E",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedStruct",
+			"Subtype": "",
+			"Prefix": "S",
+			"Suffix": ""
+		},
+		{
+			"Type": "BehaviourTree",
+			"Subtype": "",
+			"Prefix": "BT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlackboardData",
+			"Subtype": "",
+			"Prefix": "BB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Decorator",
+			"Prefix": "BTD_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Service",
+			"Prefix": "BTS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Task",
+			"Prefix": "BTT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "EnvQuery",
+			"Subtype": "",
+			"Prefix": "EQS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "EnvQueryContext",
+			"Prefix": "EQS_",
+			"Suffix": "Context"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "",
+			"Prefix": "M_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Surface",
+			"Prefix": "M_",
+			"Suffix": "_S"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_DeferredDecal",
+			"Prefix": "M_",
+			"Suffix": "_D"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_LightFunction",
+			"Prefix": "M_",
+			"Suffix": "_LF"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Volume",
+			"Prefix": "M_",
+			"Suffix": "_V"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_PostProcess",
+			"Prefix": "M_",
+			"Suffix": "_P"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_UI",
+			"Prefix": "M_",
+			"Suffix": "_UI"
+		},
+		{
+			"Type": "MaterialFunction",
+			"Subtype": "",
+			"Prefix": "MF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialInstanceConstant",
+			"Subtype": "",
+			"Prefix": "MI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialParameterCollection",
+			"Subtype": "",
+			"Prefix": "MPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubsurfaceProfile",
+			"Subtype": "",
+			"Prefix": "SP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Texture2D",
+			"Subtype": "",
+			"Prefix": "T_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTargetCube",
+			"Subtype": "",
+			"Prefix": "RTC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CanvasRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "CRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "TRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "VolumeTexture",
+			"Subtype": "",
+			"Prefix": "VT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureLightProfile",
+			"Subtype": "",
+			"Prefix": "TLP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureCube",
+			"Subtype": "",
+			"Prefix": "TC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FileMediaSource",
+			"Subtype": "",
+			"Prefix": "FMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ImgMediaSource",
+			"Subtype": "",
+			"Prefix": "IMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlayer",
+			"Subtype": "",
+			"Prefix": "MP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlaylist",
+			"Subtype": "",
+			"Prefix": "MPL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PlatformMediaSource",
+			"Subtype": "",
+			"Prefix": "PMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StreamMediaSource",
+			"Subtype": "",
+			"Prefix": "SMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperFlipbook",
+			"Subtype": "",
+			"Prefix": "PFB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSprite",
+			"Subtype": "",
+			"Prefix": "SPR_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSpriteAtlasGroup",
+			"Subtype": "",
+			"Prefix": "SPRG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileMap",
+			"Subtype": "",
+			"Prefix": "TM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileSet",
+			"Subtype": "",
+			"Prefix": "TS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicalMaterial",
+			"Subtype": "",
+			"Prefix": "PM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicsAsset",
+			"Subtype": "",
+			"Prefix": "PHYS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DestructibleMesh",
+			"Subtype": "",
+			"Prefix": "DM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueVoice",
+			"Subtype": "",
+			"Prefix": "DV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueWave",
+			"Subtype": "",
+			"Prefix": "DW_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ReverbEffect",
+			"Subtype": "",
+			"Prefix": "Reverb_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundAttenuation",
+			"Subtype": "",
+			"Prefix": "ATT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundConcurrency",
+			"Subtype": "",
+			"Prefix": "",
+			"Suffix": "_SC"
+		},
+		{
+			"Type": "SoundCue",
+			"Subtype": "S_",
+			"Prefix": "",
+			"Suffix": "_Cue"
+		},
+		{
+			"Type": "SoundMix",
+			"Subtype": "",
+			"Prefix": "Mix_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundClass",
+			"Subtype": "",
+			"Prefix": "SC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundWave",
+			"Subtype": "",
+			"Prefix": "S_",
+			"Suffix": "_Wave"
+		},
+		{
+			"Type": "Font",
+			"Subtype": "",
+			"Prefix": "Font_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateBrushAsset",
+			"Subtype": "",
+			"Prefix": "Brush_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateWidgetStyleAsset",
+			"Subtype": "",
+			"Prefix": "Style_",
+			"Suffix": ""
+		},
+		{
+			"Type": "WidgetBlueprint",
+			"Subtype": "",
+			"Prefix": "WBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CameraAnim",
+			"Subtype": "",
+			"Prefix": "CA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColor",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeCurveTable",
+			"Subtype": "",
+			"Prefix": "CT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeDataTable",
+			"Subtype": "",
+			"Prefix": "CDT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColorAtlas",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": "Atlas"
+		},
+		{
+			"Type": "DataTable",
+			"Subtype": "",
+			"Prefix": "DT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveFloat",
+			"Subtype": "",
+			"Prefix": "CF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FoliageType_InstancedStaticMesh",
+			"Subtype": "",
+			"Prefix": "FT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ForceFeedbackEffect",
+			"Subtype": "",
+			"Prefix": "FFE_",
+			"Suffix": ""
+		},
+		{
+			"Type": "HapticFeedbackEffect_Buffer",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Buffer"
+		},
+		{
+			"Type": "HapticFeedbackEffect_Curve",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Curve"
+		},
+		{
+			"Type": "HapticFeedbackEffect_SoundWave",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Soundwave"
+		},
+		{
+			"Type": "LandscapeGrassType",
+			"Subtype": "",
+			"Prefix": "LG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LightPropagationVolumeBlendable",
+			"Subtype": "",
+			"Prefix": "LPV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "InterpData",
+			"Subtype": "",
+			"Prefix": "Matinee_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ObjectLibrary",
+			"Subtype": "",
+			"Prefix": "OL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PreviewMeshCollection",
+			"Subtype": "",
+			"Prefix": "PMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateVectorArtData",
+			"Subtype": "",
+			"Prefix": "SV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StringTable",
+			"Subtype": "",
+			"Prefix": "ST_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubUVAnimation",
+			"Subtype": "",
+			"Prefix": "SUA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TouchInterface",
+			"Subtype": "",
+			"Prefix": "TI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveVector",
+			"Subtype": "",
+			"Prefix": "CV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticMesh",
+			"Subtype": "",
+			"Prefix": "SM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ParticleSystem",
+			"Subtype": "",
+			"Prefix": "PS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticVectorField",
+			"Subtype": "",
+			"Prefix": "VF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimatedVectorField",
+			"Subtype": "",
+			"Prefix": "VFA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LandscapeLayer",
+			"Subtype": "",
+			"Prefix": "LL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace1D",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimBlueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimComposite",
+			"Subtype": "",
+			"Prefix": "AC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimMontage",
+			"Subtype": "",
+			"Prefix": "AM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimSequence",
+			"Subtype": "",
+			"Prefix": "A_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlendSpace",
+			"Subtype": "",
+			"Prefix": "BS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LevelSequence",
+			"Subtype": "",
+			"Prefix": "LS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MorphTarget",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PoseAsset",
+			"Subtype": "",
+			"Prefix": "PA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Rig",
+			"Subtype": "",
+			"Prefix": "Rig_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SkeletalMesh",
+			"Subtype": "",
+			"Prefix": "SK_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Skeleton",
+			"Subtype": "",
+			"Prefix": "SKEL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_MacroLibrary",
+			"Prefix": "BPML_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_Interface",
+			"Prefix": "BPI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_FunctionLibrary",
+			"Prefix": "BPFL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Component",
+			"Prefix": "BPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Gamemode",
+			"Prefix": "GM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "PlayerController",
+			"Prefix": "PC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "AIController",
+			"Prefix": "AIC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Tutorial",
+			"Prefix": "TBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Character",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Pawn",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Actor",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Animation Blueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedEnum",
+			"Subtype": "",
+			"Prefix": "E",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedStruct",
+			"Subtype": "",
+			"Prefix": "S",
+			"Suffix": ""
+		},
+		{
+			"Type": "BehaviourTree",
+			"Subtype": "",
+			"Prefix": "BT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlackboardData",
+			"Subtype": "",
+			"Prefix": "BB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Decorator",
+			"Prefix": "BTD_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Service",
+			"Prefix": "BTS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Task",
+			"Prefix": "BTT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "EnvQuery",
+			"Subtype": "",
+			"Prefix": "EQS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "EnvQueryContext",
+			"Prefix": "EQS_",
+			"Suffix": "Context"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "",
+			"Prefix": "M_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Surface",
+			"Prefix": "M_",
+			"Suffix": "_S"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_DeferredDecal",
+			"Prefix": "M_",
+			"Suffix": "_D"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_LightFunction",
+			"Prefix": "M_",
+			"Suffix": "_LF"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Volume",
+			"Prefix": "M_",
+			"Suffix": "_V"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_PostProcess",
+			"Prefix": "M_",
+			"Suffix": "_P"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_UI",
+			"Prefix": "M_",
+			"Suffix": "_UI"
+		},
+		{
+			"Type": "MaterialFunction",
+			"Subtype": "",
+			"Prefix": "MF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialInstanceConstant",
+			"Subtype": "",
+			"Prefix": "MI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialParameterCollection",
+			"Subtype": "",
+			"Prefix": "MPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubsurfaceProfile",
+			"Subtype": "",
+			"Prefix": "SP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Texture2D",
+			"Subtype": "",
+			"Prefix": "T_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTargetCube",
+			"Subtype": "",
+			"Prefix": "RTC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CanvasRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "CRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "TRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "VolumeTexture",
+			"Subtype": "",
+			"Prefix": "VT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureLightProfile",
+			"Subtype": "",
+			"Prefix": "TLP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureCube",
+			"Subtype": "",
+			"Prefix": "TC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FileMediaSource",
+			"Subtype": "",
+			"Prefix": "FMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ImgMediaSource",
+			"Subtype": "",
+			"Prefix": "IMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlayer",
+			"Subtype": "",
+			"Prefix": "MP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlaylist",
+			"Subtype": "",
+			"Prefix": "MPL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PlatformMediaSource",
+			"Subtype": "",
+			"Prefix": "PMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StreamMediaSource",
+			"Subtype": "",
+			"Prefix": "SMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperFlipbook",
+			"Subtype": "",
+			"Prefix": "PFB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSprite",
+			"Subtype": "",
+			"Prefix": "SPR_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSpriteAtlasGroup",
+			"Subtype": "",
+			"Prefix": "SPRG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileMap",
+			"Subtype": "",
+			"Prefix": "TM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileSet",
+			"Subtype": "",
+			"Prefix": "TS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicalMaterial",
+			"Subtype": "",
+			"Prefix": "PM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicsAsset",
+			"Subtype": "",
+			"Prefix": "PHYS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DestructibleMesh",
+			"Subtype": "",
+			"Prefix": "DM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueVoice",
+			"Subtype": "",
+			"Prefix": "DV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueWave",
+			"Subtype": "",
+			"Prefix": "DW_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ReverbEffect",
+			"Subtype": "",
+			"Prefix": "Reverb_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundAttenuation",
+			"Subtype": "",
+			"Prefix": "ATT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundConcurrency",
+			"Subtype": "",
+			"Prefix": "",
+			"Suffix": "_SC"
+		},
+		{
+			"Type": "SoundCue",
+			"Subtype": "S_",
+			"Prefix": "",
+			"Suffix": "_Cue"
+		},
+		{
+			"Type": "SoundMix",
+			"Subtype": "",
+			"Prefix": "Mix_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundClass",
+			"Subtype": "",
+			"Prefix": "SC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundWave",
+			"Subtype": "",
+			"Prefix": "S_",
+			"Suffix": "_Wave"
+		},
+		{
+			"Type": "Font",
+			"Subtype": "",
+			"Prefix": "Font_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateBrushAsset",
+			"Subtype": "",
+			"Prefix": "Brush_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateWidgetStyleAsset",
+			"Subtype": "",
+			"Prefix": "Style_",
+			"Suffix": ""
+		},
+		{
+			"Type": "WidgetBlueprint",
+			"Subtype": "",
+			"Prefix": "WBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CameraAnim",
+			"Subtype": "",
+			"Prefix": "CA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColor",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeCurveTable",
+			"Subtype": "",
+			"Prefix": "CT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeDataTable",
+			"Subtype": "",
+			"Prefix": "CDT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColorAtlas",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": "Atlas"
+		},
+		{
+			"Type": "DataTable",
+			"Subtype": "",
+			"Prefix": "DT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveFloat",
+			"Subtype": "",
+			"Prefix": "CF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FoliageType_InstancedStaticMesh",
+			"Subtype": "",
+			"Prefix": "FT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ForceFeedbackEffect",
+			"Subtype": "",
+			"Prefix": "FFE_",
+			"Suffix": ""
+		},
+		{
+			"Type": "HapticFeedbackEffect_Buffer",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Buffer"
+		},
+		{
+			"Type": "HapticFeedbackEffect_Curve",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Curve"
+		},
+		{
+			"Type": "HapticFeedbackEffect_SoundWave",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Soundwave"
+		},
+		{
+			"Type": "LandscapeGrassType",
+			"Subtype": "",
+			"Prefix": "LG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LightPropagationVolumeBlendable",
+			"Subtype": "",
+			"Prefix": "LPV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "InterpData",
+			"Subtype": "",
+			"Prefix": "Matinee_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ObjectLibrary",
+			"Subtype": "",
+			"Prefix": "OL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PreviewMeshCollection",
+			"Subtype": "",
+			"Prefix": "PMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateVectorArtData",
+			"Subtype": "",
+			"Prefix": "SV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StringTable",
+			"Subtype": "",
+			"Prefix": "ST_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubUVAnimation",
+			"Subtype": "",
+			"Prefix": "SUA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TouchInterface",
+			"Subtype": "",
+			"Prefix": "TI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveVector",
+			"Subtype": "",
+			"Prefix": "CV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticMesh",
+			"Subtype": "",
+			"Prefix": "SM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ParticleSystem",
+			"Subtype": "",
+			"Prefix": "PS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticVectorField",
+			"Subtype": "",
+			"Prefix": "VF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimatedVectorField",
+			"Subtype": "",
+			"Prefix": "VFA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LandscapeLayer",
+			"Subtype": "",
+			"Prefix": "LL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace1D",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimBlueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimComposite",
+			"Subtype": "",
+			"Prefix": "AC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimMontage",
+			"Subtype": "",
+			"Prefix": "AM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimSequence",
+			"Subtype": "",
+			"Prefix": "A_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlendSpace",
+			"Subtype": "",
+			"Prefix": "BS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LevelSequence",
+			"Subtype": "",
+			"Prefix": "LS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MorphTarget",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PoseAsset",
+			"Subtype": "",
+			"Prefix": "PA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Rig",
+			"Subtype": "",
+			"Prefix": "Rig_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SkeletalMesh",
+			"Subtype": "",
+			"Prefix": "SK_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Skeleton",
+			"Subtype": "",
+			"Prefix": "SKEL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_MacroLibrary",
+			"Prefix": "BPML_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_Interface",
+			"Prefix": "BPI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_FunctionLibrary",
+			"Prefix": "BPFL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Component",
+			"Prefix": "BPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Gamemode",
+			"Prefix": "GM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "PlayerController",
+			"Prefix": "PC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "AIController",
+			"Prefix": "AIC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Tutorial",
+			"Prefix": "TBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Character",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Pawn",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Actor",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Animation Blueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedEnum",
+			"Subtype": "",
+			"Prefix": "E",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedStruct",
+			"Subtype": "",
+			"Prefix": "S",
+			"Suffix": ""
+		},
+		{
+			"Type": "BehaviourTree",
+			"Subtype": "",
+			"Prefix": "BT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlackboardData",
+			"Subtype": "",
+			"Prefix": "BB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Decorator",
+			"Prefix": "BTD_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Service",
+			"Prefix": "BTS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Task",
+			"Prefix": "BTT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "EnvQuery",
+			"Subtype": "",
+			"Prefix": "EQS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "EnvQueryContext",
+			"Prefix": "EQS_",
+			"Suffix": "Context"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "",
+			"Prefix": "M_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Surface",
+			"Prefix": "M_",
+			"Suffix": "_S"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_DeferredDecal",
+			"Prefix": "M_",
+			"Suffix": "_D"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_LightFunction",
+			"Prefix": "M_",
+			"Suffix": "_LF"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Volume",
+			"Prefix": "M_",
+			"Suffix": "_V"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_PostProcess",
+			"Prefix": "M_",
+			"Suffix": "_P"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_UI",
+			"Prefix": "M_",
+			"Suffix": "_UI"
+		},
+		{
+			"Type": "MaterialFunction",
+			"Subtype": "",
+			"Prefix": "MF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialInstanceConstant",
+			"Subtype": "",
+			"Prefix": "MI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialParameterCollection",
+			"Subtype": "",
+			"Prefix": "MPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubsurfaceProfile",
+			"Subtype": "",
+			"Prefix": "SP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Texture2D",
+			"Subtype": "",
+			"Prefix": "T_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTargetCube",
+			"Subtype": "",
+			"Prefix": "RTC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CanvasRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "CRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "TRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "VolumeTexture",
+			"Subtype": "",
+			"Prefix": "VT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureLightProfile",
+			"Subtype": "",
+			"Prefix": "TLP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureCube",
+			"Subtype": "",
+			"Prefix": "TC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FileMediaSource",
+			"Subtype": "",
+			"Prefix": "FMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ImgMediaSource",
+			"Subtype": "",
+			"Prefix": "IMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlayer",
+			"Subtype": "",
+			"Prefix": "MP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlaylist",
+			"Subtype": "",
+			"Prefix": "MPL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PlatformMediaSource",
+			"Subtype": "",
+			"Prefix": "PMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StreamMediaSource",
+			"Subtype": "",
+			"Prefix": "SMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperFlipbook",
+			"Subtype": "",
+			"Prefix": "PFB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSprite",
+			"Subtype": "",
+			"Prefix": "SPR_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSpriteAtlasGroup",
+			"Subtype": "",
+			"Prefix": "SPRG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileMap",
+			"Subtype": "",
+			"Prefix": "TM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileSet",
+			"Subtype": "",
+			"Prefix": "TS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicalMaterial",
+			"Subtype": "",
+			"Prefix": "PM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicsAsset",
+			"Subtype": "",
+			"Prefix": "PHYS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DestructibleMesh",
+			"Subtype": "",
+			"Prefix": "DM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueVoice",
+			"Subtype": "",
+			"Prefix": "DV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueWave",
+			"Subtype": "",
+			"Prefix": "DW_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ReverbEffect",
+			"Subtype": "",
+			"Prefix": "Reverb_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundAttenuation",
+			"Subtype": "",
+			"Prefix": "ATT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundConcurrency",
+			"Subtype": "",
+			"Prefix": "",
+			"Suffix": "_SC"
+		},
+		{
+			"Type": "SoundCue",
+			"Subtype": "S_",
+			"Prefix": "",
+			"Suffix": "_Cue"
+		},
+		{
+			"Type": "SoundMix",
+			"Subtype": "",
+			"Prefix": "Mix_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundClass",
+			"Subtype": "",
+			"Prefix": "SC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundWave",
+			"Subtype": "",
+			"Prefix": "S_",
+			"Suffix": "_Wave"
+		},
+		{
+			"Type": "Font",
+			"Subtype": "",
+			"Prefix": "Font_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateBrushAsset",
+			"Subtype": "",
+			"Prefix": "Brush_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateWidgetStyleAsset",
+			"Subtype": "",
+			"Prefix": "Style_",
+			"Suffix": ""
+		},
+		{
+			"Type": "WidgetBlueprint",
+			"Subtype": "",
+			"Prefix": "WBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CameraAnim",
+			"Subtype": "",
+			"Prefix": "CA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColor",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeCurveTable",
+			"Subtype": "",
+			"Prefix": "CT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeDataTable",
+			"Subtype": "",
+			"Prefix": "CDT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColorAtlas",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": "Atlas"
+		},
+		{
+			"Type": "DataTable",
+			"Subtype": "",
+			"Prefix": "DT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveFloat",
+			"Subtype": "",
+			"Prefix": "CF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FoliageType_InstancedStaticMesh",
+			"Subtype": "",
+			"Prefix": "FT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ForceFeedbackEffect",
+			"Subtype": "",
+			"Prefix": "FFE_",
+			"Suffix": ""
+		},
+		{
+			"Type": "HapticFeedbackEffect_Buffer",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Buffer"
+		},
+		{
+			"Type": "HapticFeedbackEffect_Curve",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Curve"
+		},
+		{
+			"Type": "HapticFeedbackEffect_SoundWave",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Soundwave"
+		},
+		{
+			"Type": "LandscapeGrassType",
+			"Subtype": "",
+			"Prefix": "LG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LightPropagationVolumeBlendable",
+			"Subtype": "",
+			"Prefix": "LPV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "InterpData",
+			"Subtype": "",
+			"Prefix": "Matinee_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ObjectLibrary",
+			"Subtype": "",
+			"Prefix": "OL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PreviewMeshCollection",
+			"Subtype": "",
+			"Prefix": "PMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateVectorArtData",
+			"Subtype": "",
+			"Prefix": "SV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StringTable",
+			"Subtype": "",
+			"Prefix": "ST_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubUVAnimation",
+			"Subtype": "",
+			"Prefix": "SUA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TouchInterface",
+			"Subtype": "",
+			"Prefix": "TI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveVector",
+			"Subtype": "",
+			"Prefix": "CV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticMesh",
+			"Subtype": "",
+			"Prefix": "SM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ParticleSystem",
+			"Subtype": "",
+			"Prefix": "PS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticVectorField",
+			"Subtype": "",
+			"Prefix": "VF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimatedVectorField",
+			"Subtype": "",
+			"Prefix": "VFA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LandscapeLayer",
+			"Subtype": "",
+			"Prefix": "LL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace1D",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimBlueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimComposite",
+			"Subtype": "",
+			"Prefix": "AC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimMontage",
+			"Subtype": "",
+			"Prefix": "AM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimSequence",
+			"Subtype": "",
+			"Prefix": "A_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlendSpace",
+			"Subtype": "",
+			"Prefix": "BS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LevelSequence",
+			"Subtype": "",
+			"Prefix": "LS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MorphTarget",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PoseAsset",
+			"Subtype": "",
+			"Prefix": "PA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Rig",
+			"Subtype": "",
+			"Prefix": "Rig_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SkeletalMesh",
+			"Subtype": "",
+			"Prefix": "SK_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Skeleton",
+			"Subtype": "",
+			"Prefix": "SKEL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_MacroLibrary",
+			"Prefix": "BPML_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_Interface",
+			"Prefix": "BPI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_FunctionLibrary",
+			"Prefix": "BPFL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Component",
+			"Prefix": "BPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Gamemode",
+			"Prefix": "GM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "PlayerController",
+			"Prefix": "PC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "AIController",
+			"Prefix": "AIC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Tutorial",
+			"Prefix": "TBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Character",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Pawn",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Actor",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Animation Blueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedEnum",
+			"Subtype": "",
+			"Prefix": "E",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedStruct",
+			"Subtype": "",
+			"Prefix": "S",
+			"Suffix": ""
+		},
+		{
+			"Type": "BehaviourTree",
+			"Subtype": "",
+			"Prefix": "BT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlackboardData",
+			"Subtype": "",
+			"Prefix": "BB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Decorator",
+			"Prefix": "BTD_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Service",
+			"Prefix": "BTS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Task",
+			"Prefix": "BTT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "EnvQuery",
+			"Subtype": "",
+			"Prefix": "EQS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "EnvQueryContext",
+			"Prefix": "EQS_",
+			"Suffix": "Context"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "",
+			"Prefix": "M_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Surface",
+			"Prefix": "M_",
+			"Suffix": "_S"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_DeferredDecal",
+			"Prefix": "M_",
+			"Suffix": "_D"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_LightFunction",
+			"Prefix": "M_",
+			"Suffix": "_LF"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Volume",
+			"Prefix": "M_",
+			"Suffix": "_V"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_PostProcess",
+			"Prefix": "M_",
+			"Suffix": "_P"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_UI",
+			"Prefix": "M_",
+			"Suffix": "_UI"
+		},
+		{
+			"Type": "MaterialFunction",
+			"Subtype": "",
+			"Prefix": "MF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialInstanceConstant",
+			"Subtype": "",
+			"Prefix": "MI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialParameterCollection",
+			"Subtype": "",
+			"Prefix": "MPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubsurfaceProfile",
+			"Subtype": "",
+			"Prefix": "SP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Texture2D",
+			"Subtype": "",
+			"Prefix": "T_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTargetCube",
+			"Subtype": "",
+			"Prefix": "RTC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CanvasRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "CRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "TRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "VolumeTexture",
+			"Subtype": "",
+			"Prefix": "VT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureLightProfile",
+			"Subtype": "",
+			"Prefix": "TLP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureCube",
+			"Subtype": "",
+			"Prefix": "TC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FileMediaSource",
+			"Subtype": "",
+			"Prefix": "FMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ImgMediaSource",
+			"Subtype": "",
+			"Prefix": "IMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlayer",
+			"Subtype": "",
+			"Prefix": "MP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlaylist",
+			"Subtype": "",
+			"Prefix": "MPL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PlatformMediaSource",
+			"Subtype": "",
+			"Prefix": "PMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StreamMediaSource",
+			"Subtype": "",
+			"Prefix": "SMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperFlipbook",
+			"Subtype": "",
+			"Prefix": "PFB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSprite",
+			"Subtype": "",
+			"Prefix": "SPR_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSpriteAtlasGroup",
+			"Subtype": "",
+			"Prefix": "SPRG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileMap",
+			"Subtype": "",
+			"Prefix": "TM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileSet",
+			"Subtype": "",
+			"Prefix": "TS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicalMaterial",
+			"Subtype": "",
+			"Prefix": "PM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicsAsset",
+			"Subtype": "",
+			"Prefix": "PHYS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DestructibleMesh",
+			"Subtype": "",
+			"Prefix": "DM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueVoice",
+			"Subtype": "",
+			"Prefix": "DV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueWave",
+			"Subtype": "",
+			"Prefix": "DW_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ReverbEffect",
+			"Subtype": "",
+			"Prefix": "Reverb_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundAttenuation",
+			"Subtype": "",
+			"Prefix": "ATT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundConcurrency",
+			"Subtype": "",
+			"Prefix": "",
+			"Suffix": "_SC"
+		},
+		{
+			"Type": "SoundCue",
+			"Subtype": "S_",
+			"Prefix": "",
+			"Suffix": "_Cue"
+		},
+		{
+			"Type": "SoundMix",
+			"Subtype": "",
+			"Prefix": "Mix_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundClass",
+			"Subtype": "",
+			"Prefix": "SC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundWave",
+			"Subtype": "",
+			"Prefix": "S_",
+			"Suffix": "_Wave"
+		},
+		{
+			"Type": "Font",
+			"Subtype": "",
+			"Prefix": "Font_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateBrushAsset",
+			"Subtype": "",
+			"Prefix": "Brush_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateWidgetStyleAsset",
+			"Subtype": "",
+			"Prefix": "Style_",
+			"Suffix": ""
+		},
+		{
+			"Type": "WidgetBlueprint",
+			"Subtype": "",
+			"Prefix": "WBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CameraAnim",
+			"Subtype": "",
+			"Prefix": "CA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColor",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeCurveTable",
+			"Subtype": "",
+			"Prefix": "CT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeDataTable",
+			"Subtype": "",
+			"Prefix": "CDT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColorAtlas",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": "Atlas"
+		},
+		{
+			"Type": "DataTable",
+			"Subtype": "",
+			"Prefix": "DT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveFloat",
+			"Subtype": "",
+			"Prefix": "CF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FoliageType_InstancedStaticMesh",
+			"Subtype": "",
+			"Prefix": "FT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ForceFeedbackEffect",
+			"Subtype": "",
+			"Prefix": "FFE_",
+			"Suffix": ""
+		},
+		{
+			"Type": "HapticFeedbackEffect_Buffer",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Buffer"
+		},
+		{
+			"Type": "HapticFeedbackEffect_Curve",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Curve"
+		},
+		{
+			"Type": "HapticFeedbackEffect_SoundWave",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Soundwave"
+		},
+		{
+			"Type": "LandscapeGrassType",
+			"Subtype": "",
+			"Prefix": "LG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LightPropagationVolumeBlendable",
+			"Subtype": "",
+			"Prefix": "LPV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "InterpData",
+			"Subtype": "",
+			"Prefix": "Matinee_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ObjectLibrary",
+			"Subtype": "",
+			"Prefix": "OL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PreviewMeshCollection",
+			"Subtype": "",
+			"Prefix": "PMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateVectorArtData",
+			"Subtype": "",
+			"Prefix": "SV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StringTable",
+			"Subtype": "",
+			"Prefix": "ST_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubUVAnimation",
+			"Subtype": "",
+			"Prefix": "SUA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TouchInterface",
+			"Subtype": "",
+			"Prefix": "TI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveVector",
+			"Subtype": "",
+			"Prefix": "CV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticMesh",
+			"Subtype": "",
+			"Prefix": "SM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ParticleSystem",
+			"Subtype": "",
+			"Prefix": "PS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticVectorField",
+			"Subtype": "",
+			"Prefix": "VF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimatedVectorField",
+			"Subtype": "",
+			"Prefix": "VFA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LandscapeLayer",
+			"Subtype": "",
+			"Prefix": "LL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace1D",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimBlueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimComposite",
+			"Subtype": "",
+			"Prefix": "AC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimMontage",
+			"Subtype": "",
+			"Prefix": "AM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimSequence",
+			"Subtype": "",
+			"Prefix": "A_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlendSpace",
+			"Subtype": "",
+			"Prefix": "BS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LevelSequence",
+			"Subtype": "",
+			"Prefix": "LS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MorphTarget",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PoseAsset",
+			"Subtype": "",
+			"Prefix": "PA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Rig",
+			"Subtype": "",
+			"Prefix": "Rig_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SkeletalMesh",
+			"Subtype": "",
+			"Prefix": "SK_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Skeleton",
+			"Subtype": "",
+			"Prefix": "SKEL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_MacroLibrary",
+			"Prefix": "BPML_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_Interface",
+			"Prefix": "BPI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_FunctionLibrary",
+			"Prefix": "BPFL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Component",
+			"Prefix": "BPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Gamemode",
+			"Prefix": "GM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "PlayerController",
+			"Prefix": "PC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "AIController",
+			"Prefix": "AIC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Tutorial",
+			"Prefix": "TBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Character",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Pawn",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Actor",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Animation Blueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedEnum",
+			"Subtype": "",
+			"Prefix": "E",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedStruct",
+			"Subtype": "",
+			"Prefix": "S",
+			"Suffix": ""
+		},
+		{
+			"Type": "BehaviourTree",
+			"Subtype": "",
+			"Prefix": "BT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlackboardData",
+			"Subtype": "",
+			"Prefix": "BB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Decorator",
+			"Prefix": "BTD_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Service",
+			"Prefix": "BTS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Task",
+			"Prefix": "BTT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "EnvQuery",
+			"Subtype": "",
+			"Prefix": "EQS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "EnvQueryContext",
+			"Prefix": "EQS_",
+			"Suffix": "Context"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "",
+			"Prefix": "M_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Surface",
+			"Prefix": "M_",
+			"Suffix": "_S"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_DeferredDecal",
+			"Prefix": "M_",
+			"Suffix": "_D"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_LightFunction",
+			"Prefix": "M_",
+			"Suffix": "_LF"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Volume",
+			"Prefix": "M_",
+			"Suffix": "_V"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_PostProcess",
+			"Prefix": "M_",
+			"Suffix": "_P"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_UI",
+			"Prefix": "M_",
+			"Suffix": "_UI"
+		},
+		{
+			"Type": "MaterialFunction",
+			"Subtype": "",
+			"Prefix": "MF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialInstanceConstant",
+			"Subtype": "",
+			"Prefix": "MI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialParameterCollection",
+			"Subtype": "",
+			"Prefix": "MPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubsurfaceProfile",
+			"Subtype": "",
+			"Prefix": "SP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Texture2D",
+			"Subtype": "",
+			"Prefix": "T_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTargetCube",
+			"Subtype": "",
+			"Prefix": "RTC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CanvasRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "CRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "TRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "VolumeTexture",
+			"Subtype": "",
+			"Prefix": "VT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureLightProfile",
+			"Subtype": "",
+			"Prefix": "TLP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureCube",
+			"Subtype": "",
+			"Prefix": "TC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FileMediaSource",
+			"Subtype": "",
+			"Prefix": "FMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ImgMediaSource",
+			"Subtype": "",
+			"Prefix": "IMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlayer",
+			"Subtype": "",
+			"Prefix": "MP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlaylist",
+			"Subtype": "",
+			"Prefix": "MPL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PlatformMediaSource",
+			"Subtype": "",
+			"Prefix": "PMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StreamMediaSource",
+			"Subtype": "",
+			"Prefix": "SMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperFlipbook",
+			"Subtype": "",
+			"Prefix": "PFB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSprite",
+			"Subtype": "",
+			"Prefix": "SPR_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSpriteAtlasGroup",
+			"Subtype": "",
+			"Prefix": "SPRG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileMap",
+			"Subtype": "",
+			"Prefix": "TM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileSet",
+			"Subtype": "",
+			"Prefix": "TS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicalMaterial",
+			"Subtype": "",
+			"Prefix": "PM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicsAsset",
+			"Subtype": "",
+			"Prefix": "PHYS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DestructibleMesh",
+			"Subtype": "",
+			"Prefix": "DM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueVoice",
+			"Subtype": "",
+			"Prefix": "DV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueWave",
+			"Subtype": "",
+			"Prefix": "DW_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ReverbEffect",
+			"Subtype": "",
+			"Prefix": "Reverb_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundAttenuation",
+			"Subtype": "",
+			"Prefix": "ATT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundConcurrency",
+			"Subtype": "",
+			"Prefix": "",
+			"Suffix": "_SC"
+		},
+		{
+			"Type": "SoundCue",
+			"Subtype": "S_",
+			"Prefix": "",
+			"Suffix": "_Cue"
+		},
+		{
+			"Type": "SoundMix",
+			"Subtype": "",
+			"Prefix": "Mix_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundClass",
+			"Subtype": "",
+			"Prefix": "SC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundWave",
+			"Subtype": "",
+			"Prefix": "S_",
+			"Suffix": "_Wave"
+		},
+		{
+			"Type": "Font",
+			"Subtype": "",
+			"Prefix": "Font_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateBrushAsset",
+			"Subtype": "",
+			"Prefix": "Brush_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateWidgetStyleAsset",
+			"Subtype": "",
+			"Prefix": "Style_",
+			"Suffix": ""
+		},
+		{
+			"Type": "WidgetBlueprint",
+			"Subtype": "",
+			"Prefix": "WBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CameraAnim",
+			"Subtype": "",
+			"Prefix": "CA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColor",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeCurveTable",
+			"Subtype": "",
+			"Prefix": "CT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CompositeDataTable",
+			"Subtype": "",
+			"Prefix": "CDT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveLinearColorAtlas",
+			"Subtype": "",
+			"Prefix": "CC_",
+			"Suffix": "Atlas"
+		},
+		{
+			"Type": "DataTable",
+			"Subtype": "",
+			"Prefix": "DT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveFloat",
+			"Subtype": "",
+			"Prefix": "CF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FoliageType_InstancedStaticMesh",
+			"Subtype": "",
+			"Prefix": "FT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ForceFeedbackEffect",
+			"Subtype": "",
+			"Prefix": "FFE_",
+			"Suffix": ""
+		},
+		{
+			"Type": "HapticFeedbackEffect_Buffer",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Buffer"
+		},
+		{
+			"Type": "HapticFeedbackEffect_Curve",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Curve"
+		},
+		{
+			"Type": "HapticFeedbackEffect_SoundWave",
+			"Subtype": "",
+			"Prefix": "HFFE_",
+			"Suffix": "Soundwave"
+		},
+		{
+			"Type": "LandscapeGrassType",
+			"Subtype": "",
+			"Prefix": "LG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LightPropagationVolumeBlendable",
+			"Subtype": "",
+			"Prefix": "LPV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "InterpData",
+			"Subtype": "",
+			"Prefix": "Matinee_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ObjectLibrary",
+			"Subtype": "",
+			"Prefix": "OL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PreviewMeshCollection",
+			"Subtype": "",
+			"Prefix": "PMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateVectorArtData",
+			"Subtype": "",
+			"Prefix": "SV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StringTable",
+			"Subtype": "",
+			"Prefix": "ST_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubUVAnimation",
+			"Subtype": "",
+			"Prefix": "SUA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TouchInterface",
+			"Subtype": "",
+			"Prefix": "TI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CurveVector",
+			"Subtype": "",
+			"Prefix": "CV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticMesh",
+			"Subtype": "",
+			"Prefix": "SM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ParticleSystem",
+			"Subtype": "",
+			"Prefix": "PS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StaticVectorField",
+			"Subtype": "",
+			"Prefix": "VF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimatedVectorField",
+			"Subtype": "",
+			"Prefix": "VFA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LandscapeLayer",
+			"Subtype": "",
+			"Prefix": "LL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AimOffsetBlendSpace1D",
+			"Subtype": "",
+			"Prefix": "AO_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimBlueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimComposite",
+			"Subtype": "",
+			"Prefix": "AC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimMontage",
+			"Subtype": "",
+			"Prefix": "AM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "AnimSequence",
+			"Subtype": "",
+			"Prefix": "A_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlendSpace",
+			"Subtype": "",
+			"Prefix": "BS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "LevelSequence",
+			"Subtype": "",
+			"Prefix": "LS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MorphTarget",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PoseAsset",
+			"Subtype": "",
+			"Prefix": "PA_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Rig",
+			"Subtype": "",
+			"Prefix": "Rig_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SkeletalMesh",
+			"Subtype": "",
+			"Prefix": "SK_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Skeleton",
+			"Subtype": "",
+			"Prefix": "SKEL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_MacroLibrary",
+			"Prefix": "BPML_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_Interface",
+			"Prefix": "BPI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "BPTYPE_FunctionLibrary",
+			"Prefix": "BPFL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Component",
+			"Prefix": "BPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Gamemode",
+			"Prefix": "GM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "PlayerController",
+			"Prefix": "PC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "AIController",
+			"Prefix": "AIC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Tutorial",
+			"Prefix": "TBP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Character",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Pawn",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Actor",
+			"Prefix": "BP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Animation Blueprint",
+			"Subtype": "",
+			"Prefix": "ABP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedEnum",
+			"Subtype": "",
+			"Prefix": "E",
+			"Suffix": ""
+		},
+		{
+			"Type": "UserDefinedStruct",
+			"Subtype": "",
+			"Prefix": "S",
+			"Suffix": ""
+		},
+		{
+			"Type": "BehaviourTree",
+			"Subtype": "",
+			"Prefix": "BT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "BlackboardData",
+			"Subtype": "",
+			"Prefix": "BB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Decorator",
+			"Prefix": "BTD_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Service",
+			"Prefix": "BTS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "Task",
+			"Prefix": "BTT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "EnvQuery",
+			"Subtype": "",
+			"Prefix": "EQS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Blueprint",
+			"Subtype": "EnvQueryContext",
+			"Prefix": "EQS_",
+			"Suffix": "Context"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "",
+			"Prefix": "M_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Surface",
+			"Prefix": "M_",
+			"Suffix": "_S"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_DeferredDecal",
+			"Prefix": "M_",
+			"Suffix": "_D"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_LightFunction",
+			"Prefix": "M_",
+			"Suffix": "_LF"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_Volume",
+			"Prefix": "M_",
+			"Suffix": "_V"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_PostProcess",
+			"Prefix": "M_",
+			"Suffix": "_P"
+		},
+		{
+			"Type": "Material",
+			"Subtype": "MD_UI",
+			"Prefix": "M_",
+			"Suffix": "_UI"
+		},
+		{
+			"Type": "MaterialFunction",
+			"Subtype": "",
+			"Prefix": "MF_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialInstanceConstant",
+			"Subtype": "",
+			"Prefix": "MI_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MaterialParameterCollection",
+			"Subtype": "",
+			"Prefix": "MPC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SubsurfaceProfile",
+			"Subtype": "",
+			"Prefix": "SP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "Texture2D",
+			"Subtype": "",
+			"Prefix": "T_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTargetCube",
+			"Subtype": "",
+			"Prefix": "RTC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "CanvasRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "CRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureRenderTarget2D",
+			"Subtype": "",
+			"Prefix": "TRT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "VolumeTexture",
+			"Subtype": "",
+			"Prefix": "VT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureLightProfile",
+			"Subtype": "",
+			"Prefix": "TLP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "TextureCube",
+			"Subtype": "",
+			"Prefix": "TC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "FileMediaSource",
+			"Subtype": "",
+			"Prefix": "FMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ImgMediaSource",
+			"Subtype": "",
+			"Prefix": "IMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlayer",
+			"Subtype": "",
+			"Prefix": "MP_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaPlaylist",
+			"Subtype": "",
+			"Prefix": "MPL_",
+			"Suffix": ""
+		},
+		{
+			"Type": "MediaTexture",
+			"Subtype": "",
+			"Prefix": "MT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PlatformMediaSource",
+			"Subtype": "",
+			"Prefix": "PMS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "StreamMediaSource",
+			"Subtype": "",
+			"Prefix": "SMC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperFlipbook",
+			"Subtype": "",
+			"Prefix": "PFB_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSprite",
+			"Subtype": "",
+			"Prefix": "SPR_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperSpriteAtlasGroup",
+			"Subtype": "",
+			"Prefix": "SPRG_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileMap",
+			"Subtype": "",
+			"Prefix": "TM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PaperTileSet",
+			"Subtype": "",
+			"Prefix": "TS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicalMaterial",
+			"Subtype": "",
+			"Prefix": "PM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "PhysicsAsset",
+			"Subtype": "",
+			"Prefix": "PHYS_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DestructibleMesh",
+			"Subtype": "",
+			"Prefix": "DM_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueVoice",
+			"Subtype": "",
+			"Prefix": "DV_",
+			"Suffix": ""
+		},
+		{
+			"Type": "DialogueWave",
+			"Subtype": "",
+			"Prefix": "DW_",
+			"Suffix": ""
+		},
+		{
+			"Type": "ReverbEffect",
+			"Subtype": "",
+			"Prefix": "Reverb_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundAttenuation",
+			"Subtype": "",
+			"Prefix": "ATT_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundConcurrency",
+			"Subtype": "",
+			"Prefix": "",
+			"Suffix": "_SC"
+		},
+		{
+			"Type": "SoundCue",
+			"Subtype": "S_",
+			"Prefix": "",
+			"Suffix": "_Cue"
+		},
+		{
+			"Type": "SoundMix",
+			"Subtype": "",
+			"Prefix": "Mix_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundClass",
+			"Subtype": "",
+			"Prefix": "SC_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SoundWave",
+			"Subtype": "",
+			"Prefix": "S_",
+			"Suffix": "_Wave"
+		},
+		{
+			"Type": "Font",
+			"Subtype": "",
+			"Prefix": "Font_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateBrushAsset",
+			"Subtype": "",
+			"Prefix": "Brush_",
+			"Suffix": ""
+		},
+		{
+			"Type": "SlateWidgetStyleAsset",
+			"Subtype": "",
+			"Prefix": "Style_",
+			"Suffix": ""
+		},
+		{
+			"Type": "WidgetBlueprint",
+			"Subtype": "",
+			"Prefix": "WBP_",
+			"Suffix": ""
+		}
+	]
+}
